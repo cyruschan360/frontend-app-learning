@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="<%=htmlWebpackPlugin.options.FAVICON_URL%>" type="image/x-icon" />
     <link rel="stylesheet" href="//learn-v2.jcecc.hk/static/css/jcecc.css" type="text/css" media="all" />
-    <script src="//learn-v2.jcecc.hk/static/js/jcecc.js"></script>
+    <script src="//learn-v2.jcecc.hk/static/js/jcecc.js" defer></script>
     
     <% if (htmlWebpackPlugin.options.OPTIMIZELY_PROJECT_ID) { %>
       <script src="https://www.edx.org/optimizelyjs/<%= htmlWebpackPlugin.options.OPTIMIZELY_PROJECT_ID %>.js"></script>
